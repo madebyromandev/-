@@ -10,6 +10,8 @@ from config import (
     OPERATOR_EGOR_ID,
     OPERATOR_IGOR_ID,
     OPERATOR_YAROSLAV_ID,
+    OPERATOR_ANATOLY_ID,
+    OPERATOR_AZAMAT_ID,
 )
 from database import (
     create_tables,

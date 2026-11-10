@@ -27,3 +27,11 @@ OPERATOR_YAROSLAV_ID = int(
 OPERATOR_IGOR_ID = int(
     os.getenv("OPERATOR_IGOR_ID", "0")
 )
+
+OPERATOR_ANATOLY_ID = int(
+    os.getenv("OPERATOR_ANATOLY_ID", "0")
+)
+
+OPERATOR_AZAMAT_ID = int(
+    os.getenv("OPERATOR_AZAMAT_ID", "0")
+)

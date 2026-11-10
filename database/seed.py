@@ -7,6 +7,8 @@ def seed_initial_users(
     operator_egor_id: int = 0,
     operator_yaroslav_id: int = 0,
     operator_igor_id: int = 0,
+    operator_anatoly_id: int = 0,
+    operator_azamat_id: int = 0,
 ) -> None:
     users = [
         (
@@ -34,7 +36,17 @@ def seed_initial_users(
             "Игорь — оператор",
             "operator",
         ),
-    ]
+        (
+            operator_anatoly_id,
+            "Анатолий",
+            "operator",
+        ),
+        ( 
+            operator_azamat_id,
+            "Азамат",
+            "operator",
+        ),
+        ]
 
     for telegram_id, full_name, role in users:
         if telegram_id <= 0:
