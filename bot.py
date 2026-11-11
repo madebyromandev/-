@@ -51,6 +51,8 @@ async def main() -> None:
         operator_egor_id=OPERATOR_EGOR_ID,
         operator_yaroslav_id=OPERATOR_YAROSLAV_ID,
         operator_igor_id=OPERATOR_IGOR_ID,
+        operator_anatoly_id=OPERATOR_ANATOLY_ID,
+        operator_azamat_id=OPERATOR_AZAMAT_ID,
     )
 
     bot = Bot(token=BOT_TOKEN)
